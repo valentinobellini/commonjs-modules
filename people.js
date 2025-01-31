@@ -4,8 +4,11 @@ const hobbies = require('./hobbies.js');
 
 
 function people() {
+
+    const name = names('Carlo', 'Benedetti')
+
     return {
-        fullName: `${names("Carlo", "Benedetti").firstName} ${names("Carlo", "Benedetti").lastName}`,
+        fullName: `${name.firstName} ${name.lastName}`,
         hobbies: hobbies('letteratura','poesia','giardinaggio')
     }
 };
