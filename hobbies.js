@@ -1,9 +1,5 @@
 function hobbies(hobbyOne, hobbyTwo, hobbyThree) {
-    return {
-        hobbyOne : hobbyOne,
-        hobbyTwo : hobbyTwo,
-        hobbyThree : hobbyThree,
-    };
+    return [hobbyOne, hobbyTwo, hobbyThree]
 }
 
 
